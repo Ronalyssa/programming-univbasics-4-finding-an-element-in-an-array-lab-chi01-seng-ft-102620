@@ -4,7 +4,7 @@ def find_element_index(array, value_to_find)
   found_value_index = nil
   while index < array.length do
     if array[index] == value_to_find
-    found_value_index = count
+    found_value_index = index
   end
     index += 1
   end
